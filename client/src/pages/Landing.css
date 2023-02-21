@@ -1,0 +1,46 @@
+.logo {
+  position: absolute;
+  right: 150px;
+  width: 150px;
+}
+.hero {
+  width: 400px;
+}
+.container {
+  width: 90vw;
+  height: 80vh;
+  display: flex;
+  flex-direction: row;
+  margin: auto;
+  gap: 60px;
+  margin-top: 40px;
+}
+
+.button {
+  width: 180px;
+  padding: 10px;
+  background: #45ea05;
+  cursor: pointer;
+  border: none;
+  border-radius: 15px;
+  color: black;
+}
+
+nav {
+  height: 5vh;
+}
+@media only screen and (max-width: 600px) {
+  .container {
+    width: 95vw;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    gap: 60px;
+    margin-top: 40px;
+  }
+  .hero {
+    width: 90vw;
+    margin: auto;
+  }
+}
